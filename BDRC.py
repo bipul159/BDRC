@@ -189,7 +189,6 @@ def rcrack1(uid,pwx,tl):
     'cache-control': 'max-age=0',
     'origin': 'https://p.facebook.com',
     'referer': 'https://p.facebook.com/',
-    # 'cookie': 'datr=RijmZEHHFhG9kBuV2kzdt1h2; sb=RijmZJQIv58RVyNqpsv_ZDMw; m_pixel_ratio=1.600000023841858; wd=450x875; fr=0ooKFLH2dByHxc6Hq..Bk5ihG.L_.AAA.0.0.Bk5iiL.AWU3cUnMoyA',
     'dpr': '2',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
