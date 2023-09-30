@@ -22,7 +22,7 @@ except ModuleNotFoundError:
 #-------COLOR-CODE------#
 RED = '\033[1;91m'
 WHITE = '\033[1;97m'
-BIPUL-VAI = '\033[1;32m' 
+TAKBIR = '\033[1;32m' 
 YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
