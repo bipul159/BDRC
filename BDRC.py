@@ -59,18 +59,18 @@ ugen = []
 #--------USER-AGENTS------#
 ugen=[]
 for agent in range(10000):
-        aa='Dalvik/2.1.0 (Linux; U; Android 9; SM-G955F Build/PPR1.180610.011)'
+        aa='Mozilla/5.0 (Linux; Android 13; M2101K6G)'
         b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 9; SM-G955F Build/'
+        c='Android 13; M2101K6G'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.79'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/297.0.0.13.113;]'
+        l='Mobile Safari/537.36]'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
       
